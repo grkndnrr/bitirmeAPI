@@ -1,0 +1,24 @@
+{
+    "swagger": {
+        "outputDirectory": "./dist",
+        "entryFile": "./src/controllers/**/*.ts",
+        "outputFormat": "openapi_3",
+        "host": "3.248.182.204:4000",
+        "version": "2.0",
+        "name": "Senior Project API",
+        "license": "MIT",
+        "description": "Senior Project Dökümantasyonu",
+        "basePath": "/v1",
+        "securityDefinitions": {
+            "bearerAuth": {
+                "name": "Authorization",
+                "in": "header",
+                "type": "apiKey",
+                "description": "JWT Authorization Token - `Bearer {token}`"
+            }
+        },
+        "ignore": [
+            "**/node_modules/**"
+        ]
+    }
+}

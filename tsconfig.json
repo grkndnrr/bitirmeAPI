@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+      "outDir": "dist",
+      "module": "commonjs",
+      "target": "es2019",
+      "esModuleInterop": true,
+      "sourceMap": true,
+      "resolveJsonModule": true,
+      "rootDirs": ["src", "tests"],
+      "baseUrl": "src",
+      "paths": {
+        "@/tests/*": ["../tests/*"],
+        "@/*": ["*"]
+      },
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true
+    },
+    "include": ["src", "tests"],
+    "exclude": []
+  }
